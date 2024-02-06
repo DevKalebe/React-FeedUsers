@@ -1,3 +1,4 @@
+import { Avatar } from "./Avatar";
 import { Comment } from "./Comment";
 import styles from "./Post.module.css";
 
@@ -6,10 +7,7 @@ export function Post() {
     <article className={styles.post}>
       <header>
         <div className={styles.author}>
-          <img
-            className={styles.avatar}
-            src="https://github.com/DevKalebe.png"
-          />
+          <Avatar hasBorder src="https://github.com/DevKalebe.png" />
           <div className={styles.authorInfo}>
             <strong>Kalebe Bezerra</strong>
             <span>Web Developer</span>
@@ -27,7 +25,7 @@ export function Post() {
           Acabei de subir mais um projeto no meu portifa. É um projeto que fiz
           no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀
         </p>
-        <p>
+        <p>KO
           <a href="">jane.design/doctorcare</a>
         </p>
         <p>
